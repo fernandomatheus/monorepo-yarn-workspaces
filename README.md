@@ -1,4 +1,4 @@
-- Installing a dependency on root workspace
+Installing a dependency on root workspace
 
 ```console
 $ yarn add [package] -W
@@ -10,6 +10,8 @@ if it is a dev depency,
 $ yarn add [package] -DW
 ```
 
-- Install dependency for a specific workspace:
+Install dependency for a specific workspace:
 
-yarn workspace @monorepo/workspace-name add [package]
+```console
+$ yarn workspace @monorepo/workspace-name add [package]
+```
